@@ -1,0 +1,14 @@
+{
+  "book": {
+    "novel": [
+      {
+        "name": "메리골드 마음 세탁소",
+        "author": "윤정은",
+        "publicationDate": "2023-03-06",
+        "price": 15000,
+        "bestSeller": true,
+        "freeGift": null
+      }
+    ]
+  }
+}
