@@ -21,5 +21,3 @@ let options = {
 
 let formattedJson = prettyjson.render(returnJson, options);
 console.log(formattedJson);
-
-module.exports = formattedJson;
