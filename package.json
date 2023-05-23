@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "prettyjson": "^1.2.5",
     "xlsx": "^0.18.5"
   }
 }

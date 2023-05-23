@@ -1,0 +1,182 @@
+{
+  "novel": [
+    {
+      "type": "novel",
+      "name": "메리골드 마음 세탁소",
+      "author": "윤정은",
+      "price": 15000,
+      "bestSeller": true,
+      "freeGift": null
+    },
+    {
+      "type": "novel",
+      "name": "헬로 마이 보이스",
+      "author": "데라치 하루나",
+      "price": 16800,
+      "bestSeller": false,
+      "freeGift": "볼펜"
+    }
+  ],
+  "poem": [
+    {
+      "type": "poem",
+      "name": "마음챙김의 시",
+      "author": "류시화",
+      "price": 13000,
+      "bestSeller": true,
+      "freeGift": null
+    },
+    {
+      "type": "poem",
+      "name": "에밀리 디킨슨 시 선집",
+      "author": "에밀리 디킨슨",
+      "price": 15000,
+      "bestSeller": false,
+      "freeGift": null
+    }
+  ],
+  "cook": [
+    {
+      "type": "cook",
+      "name": "무김대석 셰프의 집밥 레시피",
+      "author": "김대석",
+      "price": 18000,
+      "bestSeller": true,
+      "freeGift": null
+    },
+    {
+      "type": "cook",
+      "name": "커피가디언",
+      "author": "박영희",
+      "price": 20000,
+      "bestSeller": false,
+      "freeGift": null
+    }
+  ],
+  "health": [
+    {
+      "type": "health",
+      "name": "김명섭의 헬스 교실",
+      "author": "김명섭",
+      "price": 24800,
+      "bestSeller": true,
+      "freeGift": null
+    },
+    {
+      "type": "health",
+      "name": "시니어 절대상식",
+      "author": "양은미",
+      "price": 20000,
+      "bestSeller": false,
+      "freeGift": null
+    }
+  ],
+  "religion": [
+    {
+      "type": "religion",
+      "name": "예수에 대해 우리가 잘 모르던 이야기",
+      "author": "이종범",
+      "price": 17000,
+      "bestSeller": true,
+      "freeGift": null
+    },
+    {
+      "type": "religion",
+      "name": "영생의 삶",
+      "author": "박명하",
+      "price": 12000,
+      "bestSeller": false,
+      "freeGift": null
+    }
+  ],
+  "science": [
+    {
+      "type": "science",
+      "name": "물고기는 존재하지 않는다",
+      "author": "룰루 밀러",
+      "price": 17000,
+      "bestSeller": true,
+      "freeGift": "북마커"
+    },
+    {
+      "type": "science",
+      "name": "아주 위험한 과학책",
+      "author": "랜들 먼로",
+      "price": 23000,
+      "bestSeller": true,
+      "freeGift": null
+    }
+  ],
+  "travel": [
+    {
+      "type": "travel",
+      "name": "프렌즈 후쿠오카",
+      "author": "정꽃나래",
+      "price": 17000,
+      "bestSeller": true,
+      "freeGift": "북마커"
+    },
+    {
+      "type": "travel",
+      "name": "여기 가려고 주말을 기다렸어",
+      "author": "주말랭이",
+      "price": 19800,
+      "bestSeller": true,
+      "freeGift": null
+    }
+  ],
+  "magazine": [
+    {
+      "type": "magazine",
+      "name": "코스모폴리탄(2023년 6월호)",
+      "author": "허스트중앙",
+      "price": 7000,
+      "bestSeller": true,
+      "freeGift": null
+    },
+    {
+      "type": "magazine",
+      "name": "보그",
+      "author": "두산매거진",
+      "price": 12000,
+      "bestSeller": true,
+      "freeGift": null
+    }
+  ],
+  "IT": [
+    {
+      "type": "IT",
+      "name": "SQL 자격검정 실전문제",
+      "author": "한국데이터진흥원",
+      "price": 18000,
+      "bestSeller": true,
+      "freeGift": null
+    },
+    {
+      "type": "IT",
+      "name": "진짜 쓰는 실무 엑셀",
+      "author": "오빠두(전진권)",
+      "price": 21000,
+      "bestSeller": true,
+      "freeGift": null
+    }
+  ],
+  "comics": [
+    {
+      "type": "comics",
+      "name": "여학교의 별 3",
+      "author": "와야마 야마",
+      "price": 8500,
+      "bestSeller": true,
+      "freeGift": null
+    },
+    {
+      "type": "comics",
+      "name": "마녀 2",
+      "author": "이가라시 다이스케",
+      "price": 10000,
+      "bestSeller": false,
+      "freeGift": null
+    }
+  ]
+}
