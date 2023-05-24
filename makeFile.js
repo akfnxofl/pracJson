@@ -15,7 +15,7 @@ let book = {
   "travel": [],
   "magazine": [],
   "IT": [],
-  "comics": [],
+  "comics": []
 };
 
 
@@ -26,8 +26,8 @@ let book = {
 // excel 내에서 빈칸은 null값을 기본값으로 지정하고 데이터를 sheetData에 저장
 const filePath = 'C:/Users/USER/pracJson/bookdata.xlsx';
 const workbook = XLSX.readFile(filePath);
-const value = workbook.SheetNames[0];
-const sheetData = XLSX.utils.sheet_to_json(workbook.Sheets[value], { defval: null });
+const sheetName = workbook.SheetNames[0];
+const sheetData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName], { defval: null });
 
 
 // forEach()를 통해 bookData의 요소에 대해 반복을 실행한다.
