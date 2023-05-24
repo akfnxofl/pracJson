@@ -13,7 +13,7 @@ let bookJson = fs.readFileSync('gyoboStore.json', 'utf8', (err) => {
 // 읽어온 데이터를 json형식으로 파싱하여 bookJson에 할당한다.
 bookJson = JSON.parse(bookJson);
 
-console.log(bookJson);
+// console.log(bookJson);
 
 // bookJson.comics의 첫번째 책의 가격을 20000으로 변경한다.
 // bookJson.comics의 첫번째 책의 사은품을 북마커로 변경한다.
