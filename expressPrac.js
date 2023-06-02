@@ -35,8 +35,8 @@ app.get('/books/:category', (req, res) => {
     res.json(bookJson[book]);
     console.log(bookJson[book]);
   } else {
-    res.status(404).send('Category not found');
-    console.log('Category not found')
+    res.status(404).json({"Error": "Category not found"});
+    console.log({"Error": "Category not found"})
   }
 });
 
@@ -48,13 +48,13 @@ const item = ['type', 'name', 'author', 'price', 'bestSeller', 'freeGift'];
 app.get('/books/:category/:info', (req, res) => {
   let book = req.params.category;
   let info = req.params.info;
-  let result = bookJson[book].map((item) => item[info]);
   if (item.includes(info)) {
+    let result = bookJson[book].map((item) => item[info]);
     console.log(result);
     res.json(result);
   } else {
-    res.status(404).send('Info not found');
-    console.log('Info not found');
+    res.status(404).json({"Error": "Info not found"});
+    console.log({"Error": "Info not found"});
   }
 });
 
@@ -80,11 +80,11 @@ app.delete('/books/:category', (req, res) => {
   const book = req.params.category;
   if (bookJson.hasOwnProperty(book)) {
     delete bookJson[book];
-    res.status(200).send(`${book} Delete Success`);
-    console.log(`${book} Delete Success`);
+    res.status(200).json({"Success": `${book} Delete Success`});
+    console.log({"Success": `${book} Delete Success`});
   } else {
-    res.status(404).send('Category not found');
-    console.log('Category not found');
+    res.status(404).json({"Error": "Category not found"});
+    console.log({"Error": "Category not found"});
   }
 });
 
