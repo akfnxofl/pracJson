@@ -48,7 +48,7 @@ const item = ['type', 'name', 'author', 'price', 'bestSeller', 'freeGift'];
 app.get('/books/:category/:info', (req, res) => {
   let book = req.params.category;
   let info = req.params.info;
-  let result = bookJson[book].map((item) => item[info]); 
+  let result = bookJson[book].map((item) => item[info]);
   if (item.includes(info)) {
     console.log(result);
     res.json(result);
@@ -78,7 +78,7 @@ app.post('/books/novel/price/update', (req, res) => {
 // 오류메세지와 상태코드를 출력한다.
 app.delete('/books/:category', (req, res) => {
   const book = req.params.category;
-  if(bookJson.hasOwnProperty(book)){
+  if (bookJson.hasOwnProperty(book)) {
     delete bookJson[book];
     res.status(200).send(`${book} Delete Success`);
     console.log(`${book} Delete Success`);
